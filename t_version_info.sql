@@ -1,17 +1,4 @@
-/*
-Navicat MySQL Data Transfer
 
-Source Server         : 10.1.1.119ru
-Source Server Version : 50544
-Source Host           : 10.1.1.119:3306
-Source Database       : ru_33
-
-Target Server Type    : MYSQL
-Target Server Version : 50544
-File Encoding         : 65001
-
-Date: 2016-07-06 11:23:32
-*/
 
 SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
@@ -90,9 +77,6 @@ INSERT INTO t_version_info VALUES ('6248', '1/0/0/', 'TS/CG/blockWorld.lastsave/
 INSERT INTO t_version_info VALUES ('6249', '1/0/0/', 'TS/CG/blockWorld.lastsave/32_35.region.xml', 'FlkhaKdElVemgQcbroFF269r5UQG', '1', '0', '0', '0', '185192', '185192', '2016-01-22 00:36:35');
 INSERT INTO t_version_info VALUES ('6250', '1/0/0/', 'TS/CG/blockWorld.lastsave/32_36.raw', 'FvBbTsb96U9ll9toAmR1ZHYmq6bs', '1', '0', '0', '0', '25826', '25826', '2016-01-22 00:36:35');
 INSERT INTO t_version_info VALUES ('6251', '1/0/0/', 'TS/CG/blockWorld.lastsave/33_34.raw', 'Fn7-pPEeMCxRqWEYQNTgPFOAuEZu', '1', '0', '0', '0', '8052', '8052', '2016-01-22 00:36:35');
-INSERT INTO t_version_info VALUES ('6252', '1/0/0/', 'TS/CG/blockWorld.lastsave/33_35.raw', 'Flb_D7irvKofuV438LJ9xsts_gRr', '1', '0', '0', '0', '118377', '118377', '2016-01-22 00:36:35');
-INSERT INTO t_version_info VALUES ('6253', '1/0/0/', 'TS/CG/blockWorld.lastsave/33_35.region.xml', 'FjTQ_O3RyA5Zr14yRrVsN7qaMGq-', '1', '0', '0', '0', '9144', '9144', '2016-01-22 00:36:35');
-INSERT INTO t_version_info VALUES ('6254', '1/0/0/', 'TS/CG/blockWorld.lastsave/33_36.raw', 'FmSWknRJlEPaZ5D-mErLNIctzNhe', '1', '0', '0', '0', '21657', '21657', '2016-01-22 00:36:35');
 INSERT INTO t_version_info VALUES ('6255', '1/0/0/', 'TS/CG/blockWorld.lastsave/34_35.raw', 'FgDrcaGv1ond-PZ4ycixosvq_Yw2', '1', '0', '0', '0', '5981', '5981', '2016-01-22 00:36:35');
 INSERT INTO t_version_info VALUES ('6256', '1/0/0/', 'TS/CG/blockWorld.lastsave/34_36.raw', 'Fiyk4VJbDZTGUG7fxPXReGJjDxiy', '1', '0', '0', '0', '22223', '22223', '2016-01-22 00:36:35');
 INSERT INTO t_version_info VALUES ('6257', '1/0/0/', 'TS/CG/blockWorld.lastsave/35_36.raw', 'FmwvCHaeWFazyyJ-2pFb5VZhGtvv', '1', '0', '0', '0', '17234', '17234', '2016-01-22 00:36:35');
