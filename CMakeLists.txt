@@ -50,12 +50,6 @@ ${SRC_PATH}tcp_proxy.cc
 ${SRC_PATH}tcp_proxy.h
 ${SRC_PATH}switch_proxy.cc
 ${SRC_PATH}switch_proxy.h
-${SRC_PATH}msg_dispatcher.cc
-${SRC_PATH}msg_dispatcher.h
-${SRC_PATH}proto/proto_codec.cc
-${SRC_PATH}proto/proto_codec.h
-${SRC_PATH}main.cc
-${SRC_PATH}base/split_string.cc
 ${SRC_PATH}base/split_string.h
 ${SRC_PATH}base/iterator.cc
 ${SRC_PATH}base/iterator.h
