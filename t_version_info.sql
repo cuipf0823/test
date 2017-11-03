@@ -1,9 +1,6 @@
 
 
 SET FOREIGN_KEY_CHECKS=0;
--- ----------------------------
--- Table structure for `t_version_info`
--- ----------------------------
 DROP TABLE IF EXISTS `t_version_info`;
 CREATE TABLE `t_version_info` (
   `ID` int(10) unsigned NOT NULL AUTO_INCREMENT,

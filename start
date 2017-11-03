@@ -2,3 +2,6 @@
 
 ect_file=./bench.conf
 ./AsynServ $ect_file
+
+testessdddddddd
+
