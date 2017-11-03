@@ -1,9 +1,6 @@
 
 
 SET FOREIGN_KEY_CHECKS=0;
--- ----------------------------
--- Table structure for `t_version_info`
--- ----------------------------
 DROP TABLE IF EXISTS `t_version_info`;
 CREATE TABLE `t_version_info` (
   `ID` int(10) unsigned NOT NULL AUTO_INCREMENT,
@@ -120,31 +117,6 @@ INSERT INTO t_version_info VALUES ('6294', '1/0/0/', 'TS/guide/guiderecord/train
 INSERT INTO t_version_info VALUES ('6295', '1/0/0/', 'TS/guide/guiderecord/welcom.png', 'Fg0z59W5nDIxTBNiGs-KE7iuoJIq', '1', '0', '0', '0', '104305', '104305', '2016-01-22 00:36:35');
 INSERT INTO t_version_info VALUES ('6296', '1/0/0/', 'TS/guide/guiderecord/worldconfig.txt', 'FiZ6jdenUwuzjjKsuBZfF2AxPhfG', '1', '0', '0', '0', '105', '105', '2016-01-22 00:36:35');
 INSERT INTO t_version_info VALUES ('6297', '1/0/0/', 'TS/guide/guiderecord/blocktemplates/newfeichuan.bmax', 'FkSS6ecuTVP7E2KZV5xSqJ6TIEyb', '1', '0', '0', '0', '72711', '72711', '2016-01-22 00:36:35');
-INSERT INTO t_version_info VALUES ('6298', '1/0/0/', 'TS/guide/guiderecord/blockWorld.lastsave/36_35.raw', 'Fv5qiDTVwDVpUsWVAzQWv6JcA3ED', '1', '0', '0', '0', '665', '665', '2016-01-22 00:36:35');
-INSERT INTO t_version_info VALUES ('6299', '1/0/0/', 'TS/guide/guiderecord/blockWorld.lastsave/36_36.raw', 'FhJpFys6RNPzF1eMpHE-ks1ep4fp', '1', '0', '0', '0', '17869', '17869', '2016-01-22 00:36:35');
-INSERT INTO t_version_info VALUES ('6300', '1/0/0/', 'TS/guide/guiderecord/blockWorld.lastsave/36_37.raw', 'FrsJxqZJANyP_Ct2r7s4Lt_o7xMr', '1', '0', '0', '0', '5626', '5626', '2016-01-22 00:36:35');
-INSERT INTO t_version_info VALUES ('6301', '1/0/0/', 'TS/guide/guiderecord/blockWorld.lastsave/37_35.raw', 'FsWHylII5rBOtqy5lxUqHxm_nWu4', '1', '0', '0', '0', '4311', '4311', '2016-01-22 00:36:35');
-INSERT INTO t_version_info VALUES ('6302', '1/0/0/', 'TS/guide/guiderecord/blockWorld.lastsave/37_36.raw', 'FnivNl4I6eh1FSBN2PBRD3gpDjGu', '1', '0', '0', '0', '35133', '35133', '2016-01-22 00:36:35');
-INSERT INTO t_version_info VALUES ('6303', '1/0/0/', 'TS/guide/guiderecord/blockWorld.lastsave/37_36.region.xml', 'Fq2OBK-dUQoP_bTuaMJwy9AuaZcn', '1', '0', '0', '0', '32', '32', '2016-01-22 00:36:35');
-INSERT INTO t_version_info VALUES ('6304', '1/0/0/', 'TS/guide/guiderecord/blockWorld.lastsave/37_37.raw', 'FrWwub2eqkItp8LvXaCDazk-SvXF', '1', '0', '0', '0', '68490', '68490', '2016-01-22 00:36:35');
-INSERT INTO t_version_info VALUES ('6305', '1/0/0/', 'TS/guide/guiderecord/blockWorld.lastsave/37_37.region.xml', 'FkCKq9zA9MByDfUvST8dcOS1PzFw', '1', '0', '0', '0', '151035', '151035', '2016-01-22 00:36:35');
-INSERT INTO t_version_info VALUES ('6306', '1/0/0/', 'TS/guide/guiderecord/blockWorld.lastsave/37_38.raw', 'FjqEhap0f90QLd-WQMSuoSLfMFi5', '1', '0', '0', '0', '1334', '1334', '2016-01-22 00:36:35');
-INSERT INTO t_version_info VALUES ('6307', '1/0/0/', 'TS/guide/guiderecord/blockWorld.lastsave/38_35.raw', 'FhJyUvLDU8IvsDtJdVff_fyp5S24', '1', '0', '0', '0', '967', '967', '2016-01-22 00:36:35');
-INSERT INTO t_version_info VALUES ('6308', '1/0/0/', 'TS/guide/guiderecord/blockWorld.lastsave/38_36.raw', 'FmvdM0UFvdEymLWknTsWLyTK4FXG', '1', '0', '0', '0', '19615', '19615', '2016-01-22 00:36:35');
-INSERT INTO t_version_info VALUES ('6309', '1/0/0/', 'TS/guide/guiderecord/blockWorld.lastsave/38_37.raw', 'FpTBq8hOjIE6eRMm9iCW4KzAP8Qn', '1', '0', '0', '0', '9610', '9610', '2016-01-22 00:36:35');
-INSERT INTO t_version_info VALUES ('6310', '1/0/0/', 'TS/guide/guiderecord/blockWorld.lastsave/39_36.raw', 'FoNbVXt9g_Jc6g5j3YUDitxHypLF', '1', '0', '0', '0', '620', '620', '2016-01-22 00:36:35');
-INSERT INTO t_version_info VALUES ('6311', '1/0/0/', 'TS/guide/guiderecord/blockWorld.lastsave/customblocks.xml', 'Fhc6xtS_nKUItw0MDQlz8o6nY9CW', '1', '0', '0', '0', '54', '54', '2016-01-22 00:36:35');
-INSERT INTO t_version_info VALUES ('6312', '1/0/0/', 'TS/guide/guiderecord/blockWorld.lastsave/neurons.xml', 'FqO5IkjTDYqPVSwX_S-wIPx9IKOS', '1', '0', '0', '0', '13163', '13163', '2016-01-22 00:36:35');
-INSERT INTO t_version_info VALUES ('6313', '1/0/0/', 'TS/guide/guiderecord/players/0.entity.xml', 'FgtbhhfiXv1ulxzqJlZ-GHiF2dX9', '1', '0', '0', '0', '255', '255', '2016-01-22 00:36:35');
-INSERT INTO t_version_info VALUES ('6314', '1/0/0/', 'TS/guide/guiderecord/script/blocks/finalGate.lua', 'FmOmgOYyriuJPR2Zjdya6ge4mCH7', '1', '0', '0', '0', '2475', '2475', '2016-01-22 00:36:35');
-INSERT INTO t_version_info VALUES ('6315', '1/0/0/', 'worlds/BlockTextures/PackagesInfo.xml', 'FhKheVnwMHqqQaNvKtJXRHYxJHoC', '1', '0', '0', '0', '576', '576', '2016-01-22 00:36:35');
-INSERT INTO t_version_info VALUES ('6316', '1/0/0/', 'worlds/BlockTextures/SeerCraft32x_r1.zip', 'FklWiXBYcEDGXpjeQYZP-NhSmOmP', '1', '0', '0', '0', '396120', '396120', '2016-01-22 00:36:35');
-INSERT INTO t_version_info VALUES ('6317', '1/0/0/', 'worlds/BlockTextures/PreviewImage/defaultPreviewImage.png', 'FhdfVUj_dwZa52LTeCz5bVzvDOlD', '1', '0', '0', '0', '2527', '2527', '2016-01-22 00:36:35');
-INSERT INTO t_version_info VALUES ('6318', '1/0/0/', 'worlds/BlockTextures/PreviewImage/SeerCraft32x_r1.png', 'FsSS3CjM67iilx1zHgs0Zsux0CKD', '1', '0', '0', '0', '20212', '20212', '2016-01-22 00:36:35');
-INSERT INTO t_version_info VALUES ('6319', '1/0/0/', 'assets_manifest.txt', 'lmxskbl_zEc-JyN8shq2QhWMb13h', '1', '0', '1', '0', '4468402', '4468402', '2016-01-22 01:12:55');
-INSERT INTO t_version_info VALUES ('6320', '1/0/0/', 'autoupdater.dll', 'FkcPTCov6tX53fwgWjw1yFCejErf', '1', '0', '1', '0', '448512', '448512', '2016-01-22 01:12:55');
-INSERT INTO t_version_info VALUES ('6321', '1/0/0/', 'caudioengine.dll', 'FsSwXRLz5j2XuiJTq4Lm_T-Og3bu', '1', '0', '1', '0', '465408', '465408', '2016-01-22 01:12:55');
-INSERT INTO t_version_info VALUES ('6322', '1/0/0/', 'config.txt', 'FuvdR2omaId6e6aIDz18LzUVAwoF', '1', '0', '1', '0', '120', '120', '2016-01-22 01:12:55');
 INSERT INTO t_version_info VALUES ('6323', '1/0/0/', 'd3dx9_43.dll', 'FvWUTfQUKYNxSm2ZVebjk9mHbB4R', '1', '0', '1', '0', '1998168', '1998168', '2016-01-22 01:12:55');
 INSERT INTO t_version_info VALUES ('6324', '1/0/0/', 'freeimage.dll', 'Fm0XZ5G6KBF_M8CkmQ0O3TyUxRE3', '1', '0', '1', '0', '2088960', '2088960', '2016-01-22 01:12:55');
 INSERT INTO t_version_info VALUES ('6325', '1/0/0/', 'f_in_box.dll', 'FvpWoZvXhlbqXwqVtCSc6x-OLSFn', '1', '0', '1', '0', '184320', '184320', '2016-01-22 01:12:55');
